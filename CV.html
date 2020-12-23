@@ -3,19 +3,199 @@
 
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="style.css"> 
-<link rel="stylesheet" href="https://cdn.metroui.org.ua/v4/css/metro-all.min.css">
+
+<link rel="stylesheet" type="text/css" href="style.css"/> 
+
 <title>My resume</title>
 
 </head>
 <body>
 
-<div data-role="cube"
-    data-color="bg-cyan bd-darkCyan"
-    data-flash-color="#aa00ff">
+<div class="MainDiv">
+<aside class="sidebar">
+ <img class="ava" src="./img/img.jpg" alt="My photo">  
+
+    <div>
+        <div class="contacts-container">
+
+           <h3 class="contacts-title">Contacts</h3>
+           <div > 
+            <span class="contacts-text">C:</span> 
+            <a class="contacts-link" href="tel:+38 095 113 85 98"> +38 095 113 85 98</a>
+           </div> 
+           <div >
+            <span class="contacts-text">E:</span>
+             <a class="contacts-link" href="mailto:chornyiav@gmail.com"> chornyiav@gmail.com</a>
+           </div>
+
+        </div>
+
+        <div class="tech-skills-container">
+            <h3 class="tech-skills-title">Tech Skills</h3>
+            <ul>
+                <li class="tech-skills-item">
+                    <span class="tech-skills-text">HTML5</span>
+                </li>
+                <li class="tech-skills-item">
+                    <span class="tech-skills-text">CSS3</span></li>
+                <li class="tech-skills-item"><span class="tech-skills-text">GIT</span>
+                </li>
+                <li class="tech-skills-item">
+                    <span class="tech-skills-text">WebPack</span>
+                </li>
+                <li class="tech-skills-item">
+                    <span class="tech-skills-text">JavaScript</span>
+                </li>
+                <li class="tech-skills-item">
+                    <span class="tech-skills-text">React.js</span>
+                </li>
+                <li class="tech-skills-item">
+                    <span class="tech-skills-text">Node.js</span>
+                </li>
+            </ul>
+
+        </div>
+
+        <div class="soft-skills-container"> 
+            <h3 class="soft-skills-title">Soft Skills Skills</h3>
+            <ul>
+                <li class="soft-skills-item">
+                    <span class="soft-skills-text">Scrum</span>
+                </li>
+                <li class="soft-skills-item">
+                    <span class="soft-skills-text">Agile</span>
+                </li>
+                <li class="soft-skills-item">
+                    <span class="soft-skills-text">GTD</span>
+                </li>
+                <li class="soft-skills-item">
+                    <span class="soft-skills-text">Teamwork</span>
+                </li>
+            </ul>
+
+        </div>
+
+    </div>
+</aside>
+<div class="info-container" >
+    <div class="info-about">
+        <h2 class="info-title">Front-End & Back-End Developer </h2>
+        <h1 class="info-name">Vadym Boyarchuk</h1>
+        <p class="info-description">Lorem ipsum dolor sit amet,
+      consectetur adipiscing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+      Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+        </p>
+    </div>
+
+    <div class="project-container">
+        <h3 class="info-me-title">Projects</h3>
+        <ol>
+           <li class="project-item">
+               <a class="projects-link" href="https://lovecamp.goit.ua/"> https://lovecamp.goit.ua/</a>
+               <span class="dots">..................</span>
+               <span> <b>[</b> <span class="tech-name">HTML5, CSS3</span> <b>]</b> </span>
+           </li>
+           <li class="project-item">
+               <a class="projects-link" href="https://cryptohub.goit.ua/"> https://cryptohub.goit.ua/</a>
+               <span class="dots">.................</span>
+               <span> <b>[</b> <span class="tech-name"> JavaScript </span> <b>]</b></span>
+           </li>
+           <li class="project-item">
+               <a class="projects-link" href="https://kidslike.goit.co.ua/">https://kidslike.goit.co.ua/</a>
+               <span class="dots">................</span>
+               <span><b>[</b> <span class="tech-name"> React.js, Node.js</span> <b>]</b>  </span>
+           </li>
+        </ol>
+    </div>
+
+    <div class=" ">
+    <h3 class="info-me-title">Work Experience</h3>
+    
+    <div>
+        <h4  class="profesion-title">Front-End Developer <span class="profession-company">Freelance</span> </h4>
+        <span class="profession-time">September 2019 - up to now <span class="profession-divider">|</span> Ukraine
+
+        </span>
+
+        <ul class="profession-duties"> 
+            <li class="profession-duties-item">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </li>
+            <li class="profession-duties-item">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </li>
+            <li class="profession-duties-item" >
+                Risus commodo viverra maecenas.
+            </li>
+            <li class="profession-duties-item">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
+            </li>
+        </ul>
+
+    </div>
+   
+    </div>
+
+    <div>
+        <div>
+            <h4 class="profesion-title">Manager  <span class="profession-company"> Roga & Kopyta New</span></h4>
+            <span class="profession-time">March 2015 - October 2018 <span class="profession-divider">|</span> Ukraine</span>
+    
+            <ul class="profession-duties">
+                <li class="profession-duties-item">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua.
+                </li>
+                <li class="profession-duties-item">
+                    Quis ipsum suspendisse ultrices gravida.
+                </li>
+                <li class="profession-duties-item">
+                    Risus commodo viverra maecenas.
+                </li>
+            </ul>
+        </div>
+    
+    </div>
+
+    <div>  
+        <div>
+            <h4 class="profesion-title">Manager <span class="profession-company"> Roga & Kopyta LLC</span></h4>
+            <span class="profession-time">June 2014 - February 2015 <span class="profession-divider">|</span> Ukraine</span>
+    
+            <ul class="profession-duties">
+                <li class="profession-duties-item">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </li>
+                <li class="profession-duties-item">
+                    Quis ipsum suspendisse ultrices gravida.
+                </li>
+                <li class="profession-duties-item">
+                    Risus commodo viverra maecenas.
+                </li>
+            </ul>
+        </div>
+    
+    </div>
+
+    <div>
+        <h2 class="info-me-title">Education</h2>
+        <div>
+            <h4 ><span class="profession-company">Kharkiv National University of Radioelectronics</span></h4>
+            <h5 class="edu-info">Managment</h5>
+            <span class="profession-time">Septermber 2009 - June 2014| Ukraine </span>
+            
+        </div>
+    
+    </div>
+
+
+</div>
+  
 </div>
 
-<script src="https://cdn.metroui.org.ua/v4/js/metro.min.js"></script>
+</div>
+
+
 </body>
 
 </html>

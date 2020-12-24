@@ -129,6 +129,7 @@ margin-bottom: 20px;
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
+    margin-right: 10px;
 }
 .info-about{
     margin-bottom: 65px;
@@ -150,6 +151,7 @@ margin-bottom: 20px;
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
+    margin-right: 10px;
 }
 .dots{
     color: #bebebe;
@@ -200,4 +202,15 @@ color: #ff7011;
 {
     margin-top: 14px;
     margin-bottom: 15px;
+}
+.icon-github{
+height: 15px;
+background-color : #ffffff;
+}
+.points{
+    
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #ffffff;
 }
